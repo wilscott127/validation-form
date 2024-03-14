@@ -1,0 +1,14 @@
+.position-type {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#errorn, #errore, #errorj, #errort {
+    color: red
+}
+
+.red-border {
+    border-color: red;
+}

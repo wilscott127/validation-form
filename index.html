@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="form">
+        <fieldset>
+
+
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <span id="errorn"></span>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+            <span id="errore"></span>
+        </div>
+        <div>
+            <label for="position">Position:</label>
+            <select name="position" id="position">
+                <option value="">Choose one</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Mechanic">Mechanic</option>
+                <option value="Doctor">Doctor</option>
+            </select>
+            <span id="errorj"></span>
+        </div>
+
+        <div class="position-type">
+
+            <p>Type</p>
+
+
+        <div>
+            
+            <label>
+                <input type="radio" name="type" id="full">Full-time
+            </label><br>
+            <label>
+                <input type="radio" name="type" id="part">Part-time
+            </label>
+        </div>
+
+        <span id="errort"></span>
+
+        </div>
+
+        
+        <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+
+    
+</body>
+</html>
