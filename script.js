@@ -47,7 +47,7 @@ form.addEventListener('submit', (e) => {
 
 
     if (position.value === ""){
-        console.log(position.value)
+        
         messagej.push('Must select position type')
     }
 
