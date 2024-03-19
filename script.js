@@ -56,7 +56,7 @@ form.addEventListener('submit', (e) => {
         errorj.innerText = messagej.join(', ')
         position.classList.add("red-border")
     }  else {
-        errorj.innerText = "&#9989;"
+        errorj.innerText = "✅"
     }
 
     if (!full.checked && !part.checked) {
